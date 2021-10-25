@@ -12,7 +12,7 @@ using MySql.Data.MySqlClient;
 
 namespace AdminUsers_System
 {
-    public partial class frmLogin : Form
+    public partial class frmLogin : MetroFramework.Forms.MetroForm
     {
         public static string UserName = "";
         public frmLogin()
